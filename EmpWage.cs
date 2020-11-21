@@ -14,22 +14,22 @@ namespace EmpWageProgram
             Random random = new Random();
             int empcheck = random.Next(0, 3);
             Console.WriteLine("WelCome to Empolyee Wage Computation Program");
-            
-            if(empcheck == FULL_TIME)
-            {
-                Console.WriteLine("Employee is Present and Employee is Fulltime");
-                empHrs = 8;
-            }
-             else if(empcheck == 2)
-            {
-                Console.WriteLine("Employee is Present and Employee is Parttime");
-                empHrs = 4;
-            }
-            else
-            {
-                Console.WriteLine("Employee is Absent");
-                empHrs = 0;
-            }
+
+            switch (empcheck) {
+                case 1:
+                    Console.WriteLine("Employee is Present and Employee is Fulltime");
+                    empHrs = 8;
+                    break;
+                case 2:
+                     Console.WriteLine("Employee is Present and Employee is Parttime");
+                     empHrs = 4;
+                    break;
+                default:
+                     Console.WriteLine("Employee is Absent");
+                     empHrs = 0;
+                    break;
+          
+        }
             empWage = empHrs * EMP_WAGE_PER_HR;
             Console.WriteLine("Employee wage is :" + empWage);
         }
