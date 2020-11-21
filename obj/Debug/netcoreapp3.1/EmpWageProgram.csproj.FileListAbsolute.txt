@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\EmpWageProgram\bin\Debug\netcoreapp3.1\EmpWageProgram.exe
+C:\Users\USER\source\repos\EmpWageProgram\bin\Debug\netcoreapp3.1\EmpWageProgram.deps.json
+C:\Users\USER\source\repos\EmpWageProgram\bin\Debug\netcoreapp3.1\EmpWageProgram.runtimeconfig.json
+C:\Users\USER\source\repos\EmpWageProgram\bin\Debug\netcoreapp3.1\EmpWageProgram.runtimeconfig.dev.json
+C:\Users\USER\source\repos\EmpWageProgram\bin\Debug\netcoreapp3.1\EmpWageProgram.dll
+C:\Users\USER\source\repos\EmpWageProgram\bin\Debug\netcoreapp3.1\EmpWageProgram.pdb
+C:\Users\USER\source\repos\EmpWageProgram\obj\Debug\netcoreapp3.1\EmpWageProgram.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\EmpWageProgram\obj\Debug\netcoreapp3.1\EmpWageProgram.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\EmpWageProgram\obj\Debug\netcoreapp3.1\EmpWageProgram.AssemblyInfo.cs
+C:\Users\USER\source\repos\EmpWageProgram\obj\Debug\netcoreapp3.1\EmpWageProgram.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\EmpWageProgram\obj\Debug\netcoreapp3.1\EmpWageProgram.dll
+C:\Users\USER\source\repos\EmpWageProgram\obj\Debug\netcoreapp3.1\EmpWageProgram.pdb
+C:\Users\USER\source\repos\EmpWageProgram\obj\Debug\netcoreapp3.1\EmpWageProgram.genruntimeconfig.cache
