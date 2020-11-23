@@ -6,15 +6,18 @@ namespace EmpWageProgram
     {
         public const int FULL_TIME = 1;
         public const int PART_TIME = 2;
-        public const int NUM_OF_WORKING_DAYS = 20;
-        public const int EMP_RATE_PER_HR = 20;
-        public const int MAX_HRS_IN_MONTH = 100;
-
-        public static int computeEmpWage()
+       // public const int NUM_OF_WORKING_DAYS = 20;
+       // public const int EMP_RATE_PER_HR = 20;
+       // public const int MAX_HRS_IN_MONTH = 100;
+        /// <summary>
+        /// Computes the emp wage.
+        /// </summary>
+        /// <returns></returns>
+        public static int computeEmpWage(String companyName, int empRatePerHr,int numOfWorkingDays,int maxHrsPerMonth)
         {
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
             Console.WriteLine("WelCome to Empolyee Wage Computation Program");
-            while (totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays < NUM_OF_WORKING_DAYS)
+            while (totalEmpHrs <= maxHrsPerMonth && totalWorkingDays < numOfWorkingDays)
             {
                 totalWorkingDays++;
                 Random random = new Random();
@@ -35,13 +38,13 @@ namespace EmpWageProgram
                 totalEmpHrs += empHrs;
                 Console.WriteLine("Day : " + totalWorkingDays + " Emp Hrs: " + empHrs);
             }
-            int totalEmpWage = totalEmpHrs * EMP_RATE_PER_HR;
+            int totalEmpWage = totalEmpHrs * empRatePerHr;
             Console.WriteLine("Total Employee wage is :" + totalEmpWage);
             return totalEmpWage;
         }
         static void Main(string[] args)
         {
-            computeEmpWage();
+            computeEmpWage("ABCD",20,5,20);
         }
     }
 }
